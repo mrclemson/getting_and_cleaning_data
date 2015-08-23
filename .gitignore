@@ -1,0 +1,4 @@
+.DS_Store
+
+./UCI\ HAR\ Dataset/test/Inertial\ Signals/
+./UCI\ HAR\ Dataset/train/Inertial\ Signals/
