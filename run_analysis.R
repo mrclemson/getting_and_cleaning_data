@@ -32,7 +32,7 @@ names(activityNames) <- c("Activity", "Activity Description")
 dfKeep <- merge(dfKeep, activityNames, by.x = "Activity", by.y = "Activity", all = TRUE)
 dfKeep$Activity <- NULL
 
-## Lable the dataset with descriptive variable names
+## Label the dataset with descriptive variable names
 names(dfKeep) <- gsub("(","",names(dfKeep),fixed = TRUE)
 names(dfKeep) <- gsub(")","",names(dfKeep),fixed = TRUE)
 names(dfKeep) <- gsub("^t","Time",names(dfKeep))
