@@ -5,6 +5,7 @@
 * Label the variable names and make them more descriptive, pretty manual, basically a bunch of substitutes.
 * Lastly, create the tidy dataset by aggregating on `Subject` and `Activity`.
 
-### Variable names
+### Variable names and attributes
 * The first two are very self explaining: they are the group_by columns.
 * I was a little lazy, so I just kept the relabel'ed variable names. Probably makes more sense to add something like Avg at the front to indicate they are really the average of the means. Function `paste` may be handy here.
+* All variables are numeric with the exception of the first two which are factors. Subject is int from the data type perspective, but it's really categorical.
